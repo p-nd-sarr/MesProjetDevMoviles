@@ -1,0 +1,12 @@
+h1, label, input
+{
+    text-align: center;
+}
+
+label, input{
+    display: block;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
+    height: 30px;
+}
