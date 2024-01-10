@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact'Tel</title>
+    <link rel="stylesheet" href="lib/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="lib/jquery.min.js"></script>
+    <script src="lib/jquery.mobile-1.4.5.min.js"></script>
+    <script src="cordova.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+    <div id="page-contact-list" data-role="page">
+        <div data-role="header">
+            <h1>Contact'Tel</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <a href="#" data-role="button" data-icon="edit" data-iconpos="right">Modifier</a> <br>
+          
+            <form action="">
+                <label for="Modifier"></label>
+            </form>
+
+         <ul id="contactList" data-role="listview" data-insert="true" data-filter="true" data-filter-placeholder="rechercher un contact">
+            <li><a href="#page-contact-list">
+                <img src="img/student.jpg" alt="Mansour Diop" width="50" height="40" >
+                <h1>Mansour Diop</h1>
+                <p> 77 334 09 90</p>
+            </a>
+               
+            </li>
+
+            <li>
+                <a href="#">
+                <img src="img/teacher2.ico" alt=""  width="50" height="40">
+                <h1>Boubacar Camara</h1>
+                <p> 77 002 09 80</p>
+            </a>   
+            </li>
+
+            <li>
+                <a href="#">
+                <img src="img/teacher.png" alt="Khady Ndiaye"  width="50" height="40">
+                <h1>Khady Ndiaye</h1>
+                <p> 77 002 09 80</p>
+            </a>
+                
+            </li>
+         </ul>
+        </div>
+        <div data-role="footer" data-position="fixed"> 
+            <h1>M2GL &copy; 2023</h1>
+        </div>
+
+        
+       
+    </div>
+</body>
+</html>
